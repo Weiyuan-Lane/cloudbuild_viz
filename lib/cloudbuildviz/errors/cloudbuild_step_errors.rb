@@ -1,4 +1,4 @@
-class CloudbuildViz::CloudbuildStepInitError < StandardError
+class Cloudbuildviz::CloudbuildStepInitError < StandardError
   def message
     'CloudbuildStep Initialized with improper values'
   end

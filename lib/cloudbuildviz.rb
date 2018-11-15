@@ -1,12 +1,12 @@
-require 'cloudbuild_viz/loader'
-require 'cloudbuild_viz/visualizer'
+require 'cloudbuildviz/loader'
+require 'cloudbuildviz/visualizer'
 require 'ruby-graphviz'
 
-module CloudbuildViz
+module Cloudbuildviz
   def self.make(inputfile, outputfile)
-    loader = CloudbuildViz::Loader.new(inputfile)
+    loader = Cloudbuildviz::Loader.new(inputfile)
     parsed_steps = loader.parse_cloudbuild_steps
-    visualizer = CloudbuildViz::Visualizer.new(parsed_steps)
+    visualizer = Cloudbuildviz::Visualizer.new(parsed_steps)
     visualizer.visualize_normal_build(outputfile)
   end
 end

@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "cloudbuild_viz/version"
+require "cloudbuildviz/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "cloudbuild_viz"
-  spec.version       = CloudbuildViz::VERSION
+  spec.name          = "cloudbuildviz"
+  spec.version       = Cloudbuildviz::VERSION
   spec.authors       = ["Weiyuan"]
   spec.email         = ["weiyuan.lane@gmail.com"]
 
   spec.summary       = %q{ Summary }
   spec.description   = %q{ Description }
-  spec.homepage      = "https://github.com/weiyuan-lane/cloudbuild_viz"
+  spec.homepage      = "https://github.com/weiyuan-lane/cloudbuildviz"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|

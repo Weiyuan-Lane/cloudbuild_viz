@@ -1,6 +1,6 @@
-RSpec.describe CloudbuildViz do
+RSpec.describe Cloudbuildviz do
   it "has a version number" do
-    expect(CloudbuildViz::VERSION).not_to be nil
+    expect(Cloudbuildviz::VERSION).not_to be nil
   end
 
   it "does something useful" do

@@ -6,5 +6,5 @@ RSpec::Core::RakeTask.new(:spec)
 task :default => :spec
 
 task :console do
-  exec "irb -Ilib -rcloudbuild_viz"
+  exec "irb -Ilib -rcloudbuildviz"
 end

@@ -1,4 +1,4 @@
-class CloudbuildViz::Visualizer
+class Cloudbuildviz::Visualizer
   def initialize(parsed_cloudbuild_steps)
     @parsed_cloudbuild_steps = parsed_cloudbuild_steps
   end

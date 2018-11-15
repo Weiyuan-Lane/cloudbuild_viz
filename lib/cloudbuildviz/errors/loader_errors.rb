@@ -1,4 +1,4 @@
-class CloudbuildViz::LoaderInitError < StandardError
+class Cloudbuildviz::LoaderInitError < StandardError
   def initialize(reason = '')
     @reason = reason
   end

@@ -1,4 +1,4 @@
-# CloudbuildViz
+# Cloudbuildviz
 
 
 ## Installation
@@ -6,7 +6,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'cloudbuild_viz'
+gem 'cloudbuildviz'
 ```
 
 And then execute:
@@ -15,7 +15,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install cloudbuild_viz
+    $ gem install cloudbuildviz
 
 ### Side dependency
 `graphviz` should also be installed
@@ -34,7 +34,7 @@ bundle exec graph cloudbuildfile.yaml render_image.png
 
 For a Ruby or Rails application
 ```ruby
-require 'cloudbuild_viz'
+require 'cloudbuildviz'
 
 class ApplicationController < ActionController::Base
 
@@ -43,7 +43,7 @@ class ApplicationController < ActionController::Base
 .
 	
     def make_build_graph
-        CloudbuildViz.make('cloudbuildfile.yaml', '/tmp/images/render_image.png')
+        Cloudbuildviz.make('cloudbuildfile.yaml', '/tmp/images/render_image.png')
     end
 .
 .
@@ -54,7 +54,7 @@ end
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/weiyuan-lane/cloudbuild_viz.
+Bug reports and pull requests are welcome on GitHub at https://github.com/weiyuan-lane/cloudbuildviz.
 
 ## License
 
