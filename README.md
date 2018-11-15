@@ -42,8 +42,8 @@ class ApplicationController < ActionController::Base
 .
 .
 	
-	def make_build_graph
-		CloudbuildViz.make('cloudbuildfile.yaml', '/tmp/images/render_image.png')
+    def make_build_graph
+        CloudbuildViz.make('cloudbuildfile.yaml', '/tmp/images/render_image.png')
     end
 .
 .
