@@ -1,5 +1,3 @@
-require 'cloudbuildviz/loader'
-require 'cloudbuildviz/visualizer'
 require 'ruby-graphviz'
 
 module Cloudbuildviz
