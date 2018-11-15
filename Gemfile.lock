@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cloudbuildviz (0.1.1)
+    cloudbuildviz (0.1.2)
       ruby-graphviz (~> 1.2)
       thor (~> 0.19)
 
