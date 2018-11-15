@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'cloudbuild_viz'
+
+CloudbuildViz::CLI.start(ARGV)

@@ -1,16 +1,16 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "cloudbuild_tree_viz/version"
+require "cloudbuild_viz/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "cloudbuild_tree_viz"
-  spec.version       = CloudbuildTreeViz::VERSION
+  spec.name          = "cloudbuild_viz"
+  spec.version       = CloudbuildViz::VERSION
   spec.authors       = ["Weiyuan"]
   spec.email         = ["weiyuan.lane@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{ Summary }
+  spec.description   = %q{ Description }
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
@@ -33,4 +33,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+
+  spec.add_dependency 'ruby-graphviz', '~> 1.2'
+  spec.add_dependency 'thor', '~> 0.20'
 end

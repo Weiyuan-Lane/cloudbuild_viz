@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "cloudbuild_tree_viz"
+require "cloudbuild_viz"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
