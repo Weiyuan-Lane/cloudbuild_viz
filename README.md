@@ -29,7 +29,7 @@ brew install graphviz
 
 From CLI
 ```
-bundle exec graph cloudbuildfile.yaml render_image.png
+bundle exec graph make cloudbuildfile.yaml render_image.png
 ```
 
 For a Ruby or Rails application
